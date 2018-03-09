@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-size:12px; line-height:14px; font-family:"微软雅黑";}
+a{text-decoration:none;}
+img{ border:0;}
+ul{ list-style:none;}
+select { background-color: #FFF; color: #000; }
+.span_img{ vertical-align:middle; display:inline-block; width:0; height:100%;}
+input{ font-family:"微软雅黑";}
+i{ font-style:normal;}
+label.error{ font-size:12px; color:#ff6600; margin-left:4px;}
+/*头部*/
+.top{ width:100%; margin:0 auto; overflow:hidden; height:125px;}
+.logo{ float:left; height:90px; width:261px;}
+
+/*下划线_IE6支持下划线，IE7和firefox等均不支持下划线。*/
+
+
+    .logo img {
+        max-width: 261px;
+        max-height: 32px;
+        _width: 261px;
+        _height: 32px;
+    }
+
+
+
+.nav{ width:815px; margin:0; height:94px; float:left;}
+.nav li{ float:left; margin-left:5px;}
+.nav li a{ font-size:16px; color:#333333; height:94px; display:inline-block; padding:0 19px; line-height:110px;}
+.nav li a:hover{ background:#2978ec; color:#FFFFFF;}
+.nav .nav_a{ background:#2978ec; color:#FFFFFF;}
+
+
+.xiaoxi{ float:left; margin:26px 0 0 30px; width:120px;}
+.xiaoxi p{ font-size:13px; color:#999999; line-height:20px;}
